@@ -1,0 +1,11 @@
+@mixin cartas{
+    text-align: center;
+    background-color: rgb(148, 196, 148);
+    h5{
+        font-size: 2.5rem;
+        font-style:italic;        
+    }
+    p{font-size: 1.5rem;
+        font-style:italic;
+    }    
+}

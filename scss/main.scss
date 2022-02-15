@@ -1,0 +1,108 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    max-width: 100.8%;
+}
+.wpp{
+    margin: 0px;
+    animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;}
+.wppicon{position: relative;
+    bottom: 35px;
+    right: 179px;}
+.listaNos{ font-size: 30px;  
+}
+.nav-link{color: white;}
+.titulopag{animation-duration: 4s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    font-size: 60px;
+    margin: 0px;
+}
+@keyframes aparecer {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+ }
+ 
+ 
+.col-8{ font-size: 25px;
+margin-top: 20px;
+}
+
+.h3Footer{ 
+    margin: 0px;
+    text-align: center;
+}
+.copyr{
+    margin-bottom: 0px;
+}
+.divMain1{
+    font-size: 55px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+
+.divFotos{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    left: 20px;
+    right: 0;
+    text-align: center; 
+    justify-content: space-between;  
+}
+.img-fluid {
+    max-width: 90%;}
+.nos{
+    padding: none;
+    margin: 0px 0px;
+}
+.footer{padding: 0px 0px;}
+ 
+.container{padding: 0px 0px 0px 0px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+.row2{margin-right: 0px;
+    margin-left: 0px;}
+.row3{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.imagenNos{position: relative;
+    top: 220px}
+.carrusel{
+    position: relative;
+    top: 200px;
+}
+.card-img-top{
+    width: 318px;
+}.img1{
+    height: 318px;
+    width: 500px;
+}
+.card-title{
+    font-size: 30px;
+}
+
+
+// VARIABLES
+@import './VARIABLES/extends';
+@import './VARIABLES/mixins';
+@import './VARIABLES/mapas';
+
+
+// PAGINAS
+
+@import './PAGS/index';
+@import './PAGS/nos';
+

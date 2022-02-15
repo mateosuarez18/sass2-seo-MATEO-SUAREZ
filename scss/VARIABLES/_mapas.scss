@@ -1,0 +1,13 @@
+$font-sizes: (
+    h1: 50px,
+    h2: 45px,
+    h3: 25px,
+    p: 18px,
+
+);
+
+@each $etiqueta, $tamanio-titulos in $font-sizes {
+    #{$etiqueta} {
+        font-size: $tamanio-titulos;
+    }
+}
